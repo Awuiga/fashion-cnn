@@ -1,0 +1,284 @@
+{
+  "evaluation_date": "2026-11-16",
+  "checkpoint_sha256": "1b08330ebd284591d6e8f7ca2284935ae1d24cadb4f27fb66a9d2c3546f56f09",
+  "parameters": 206922,
+  "classes": [
+    "T-shirt/top",
+    "Trouser",
+    "Pullover",
+    "Dress",
+    "Coat",
+    "Sandal",
+    "Shirt",
+    "Sneaker",
+    "Bag",
+    "Ankle boot"
+  ],
+  "train_samples": 48000,
+  "validation": {
+    "samples": 12000,
+    "accuracy": 0.9044166666666666,
+    "cross_entropy_per_image": 0.2641887214978536,
+    "confusion_matrix": [
+      [
+        1070,
+        1,
+        39,
+        37,
+        6,
+        0,
+        112,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        1230,
+        2,
+        11,
+        3,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        6,
+        2,
+        1037,
+        8,
+        87,
+        0,
+        31,
+        0,
+        4,
+        0
+      ],
+      [
+        20,
+        9,
+        10,
+        1027,
+        48,
+        0,
+        30,
+        0,
+        3,
+        1
+      ],
+      [
+        2,
+        0,
+        37,
+        25,
+        1077,
+        0,
+        51,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1149,
+        0,
+        27,
+        4,
+        21
+      ],
+      [
+        137,
+        3,
+        121,
+        22,
+        93,
+        0,
+        824,
+        0,
+        12,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        1099,
+        1,
+        23
+      ],
+      [
+        4,
+        0,
+        6,
+        2,
+        5,
+        2,
+        7,
+        4,
+        1165,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        5,
+        0,
+        42,
+        1,
+        1175
+      ]
+    ]
+  },
+  "test": {
+    "samples": 10000,
+    "accuracy": 0.897,
+    "cross_entropy_per_image": 0.2825601495742798,
+    "confusion_matrix": [
+      [
+        827,
+        0,
+        31,
+        24,
+        7,
+        1,
+        104,
+        0,
+        6,
+        0
+      ],
+      [
+        1,
+        977,
+        1,
+        13,
+        4,
+        0,
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        10,
+        1,
+        865,
+        5,
+        92,
+        0,
+        25,
+        0,
+        2,
+        0
+      ],
+      [
+        11,
+        5,
+        18,
+        886,
+        39,
+        0,
+        36,
+        0,
+        4,
+        1
+      ],
+      [
+        0,
+        0,
+        62,
+        18,
+        890,
+        0,
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        967,
+        0,
+        24,
+        0,
+        8
+      ],
+      [
+        112,
+        3,
+        110,
+        23,
+        97,
+        0,
+        644,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        975,
+        1,
+        21
+      ],
+      [
+        2,
+        1,
+        4,
+        1,
+        3,
+        2,
+        3,
+        4,
+        980,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        37,
+        0,
+        959
+      ]
+    ]
+  },
+  "environment": {
+    "python": "3.13.2",
+    "torch": "2.10.0+cu126",
+    "torchvision": "0.25.0+cu126",
+    "device": "cuda"
+  },
+  "notes": [
+    "Validation split reconstructed with seed 42 from supplied train.py.",
+    "Checkpoint does not record training indices, epoch or dataset hashes.",
+    "Metrics evaluate existing weights; no training or tuning is performed.",
+    "Loss is weighted per image, unlike the mean of batch means in train.py."
+  ]
+}
